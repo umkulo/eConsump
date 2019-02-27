@@ -29,14 +29,14 @@ const sequelize = new Sequelize('icanstore', 'root', 'Mast3rk3y', {
     }
   });
 
-  sequelize
-  .authenticate()
-  .then(() => {
-    console.log('Connection has been established successfully.');
-  })
-  .catch(err => {
-    console.error('Unable to connect to the database:', err);
-  });  
+//   sequelize
+//   .authenticate()
+//   .then(() => {
+//     console.log('Connection has been established successfully.');
+//   })
+//   .catch(err => {
+//     console.error('Unable to connect to the database:', err);
+//   });  
 
 // Init App
 var app = express();
